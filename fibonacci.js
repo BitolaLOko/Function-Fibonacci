@@ -6,13 +6,13 @@ for (let i = 2; i < process.argv.length; i++) {
 
 function loop(n) {
   let fib = [0, 1];
-  for (let i = 2; i <= n; i++ -2) {
+  for (let i = 2; i <= n; i++) {
     fib[i] = fib[i - 1] + fib[i - 2];
     console.log(fib[i - 2]);
   }
 }
 
-loop(argumento);
+loop(argumento + 2);
 
 function recursiva(n) {
   if (n == 0) {

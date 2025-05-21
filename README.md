@@ -28,7 +28,7 @@ numeros(10);
 
 Função recursiva:
 
-Função recursiva é aquela que em seu escopo acaba por "chamar" ela mesma durante sua execução.
+Função recursiva é aquela que em seu escopo acaba por "chamar" ela mesma durante sua execução. Lembrando que é preciso de um parâmetro de parada.
 Exemplo:
 
 function verificarNumPar(n) {

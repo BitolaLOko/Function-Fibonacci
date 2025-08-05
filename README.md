@@ -36,10 +36,10 @@ function verificarNumPar(n) {
     console.log("parar recurção");
   } else if (n % 2 != 0) {
     console.log(`ímpar: ${n}`);
-    return parOuImpar(n - 1);
+    return verificarNumPar(n - 1);
   } else {
     console.log(`par: ${n}`);
-    return parOuImpar(n - 2);
+    return verificarNumPar(n - 2);
   }
 }
 

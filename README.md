@@ -43,5 +43,5 @@ function verificarNumPar(n) {
   }
 }
 
-parOuImpar(11);
+verificarNumPar(11);
 // resultado = ímpar: 11 par: 10 par: 8 par: 6 par: 4 parar recurção.
